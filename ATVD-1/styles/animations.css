@@ -1,7 +1,0 @@
-@keyframes upDown {
-    50%{transform: translateY(-5%); rotate: 4deg;}
-}
-
-@keyframes downUp {
-    50%{transform: translateY(3%);}
-}
