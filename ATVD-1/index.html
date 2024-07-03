@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="styles/img/icon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="styles/style.css">
+        <title>FAV GAMES</title>
+
+    </head>
+
+    <body>
+        <button class="playPause" id="playPause" onclick="songChange()">
+            <i class="fa-solid fa-play" id="play"></i>
+            <i class="fa-solid fa-pause" id="pause"></i>
+        </button>
+
+        <div class="container">
+            <h2>Lista dos meus jogos favoritos</h2>
+
+            <ul>
+                <li><a href="https://pt.wikipedia.org/wiki/Nintendo_Entertainment_System" target="_blank">Nintendinho</a>
+                    <ol>
+                        <li>Mario Bros
+                            <ul>
+                                <li>Super Mario Bros 3</li>
+                                <li>Mario: Lost Levels</li>
+                            </ul>
+                        </li>
+                        <li>Ninja Gaiden
+                            <ul>
+                                <li>Ninja Gaiden III</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li>Super Nintendo
+                    <ol>
+                        <li>Super Mario World</li>
+                        <li>Donkey Kong
+                            <ul>
+                                <li>Donkey Kong Country III</li>
+                                <li>Diddy's Kong Quest</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li>Playstation 1
+                    <ol>
+                        <li>Final Fantasy
+                            <ul>
+                                <li>Final Fantasy VII</li>
+                                <li>Final Fantasy IX</li>
+                            </ul>
+                        </li>
+                        <li>Castlevania
+                            <ul>
+                                <li>Simphony of the Night</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+
+        <img src="styles/img/pic1.png" alt="dado" class="fleximg">
+        <img src="styles/img/pic2.png" alt="controle" class="control">
+        <a href="styles/img/pic3.png" download="html5 logo" class="download" title="Clique aqui para baixar essa imagem">
+            <img src="styles/img/pic3.png" alt="html 5 logo download">
+        </a>
+
+        <audio controls src="styles/aud/bgsong.mp3" autoplay loop style="display: none;" id="bgSong"></audio>
+    </body>
+    
+    <script src="scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/1090c0e9f6.js" crossorigin="anonymous"></script>
+</html>
